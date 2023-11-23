@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69541FBD2B07C50900B6C0F5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69541FBC2B07C50900B6C0F5 /* Category.swift */; };
+		69541FBF2B07C54D00B6C0F5 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69541FBE2B07C54D00B6C0F5 /* CategoryModel.swift */; };
 		696EFB702B03C4B800943679 /* AirbnbInterfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EFB6F2B03C4B800943679 /* AirbnbInterfaceApp.swift */; };
 		696EFB722B03C4B800943679 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EFB712B03C4B800943679 /* ContentView.swift */; };
 		696EFB742B03C4B900943679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EFB732B03C4B900943679 /* Assets.xcassets */; };
 		696EFB772B03C4B900943679 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EFB762B03C4B900943679 /* Preview Assets.xcassets */; };
+		696EFB7E2B03DAFD00943679 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EFB7D2B03DAFD00943679 /* LoginView.swift */; };
+		69F678172B0529350042A9E5 /* HouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F678162B0529350042A9E5 /* HouseModel.swift */; };
+		69F678192B0529620042A9E5 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F678182B0529620042A9E5 /* House.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		696EFB6C2B03C4B800943679 /* AirbnbInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69541FBC2B07C50900B6C0F5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		69541FBE2B07C54D00B6C0F5 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		696EFB6C2B03C4B800943679 /* Earthbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		696EFB6F2B03C4B800943679 /* AirbnbInterfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbInterfaceApp.swift; sourceTree = "<group>"; };
 		696EFB712B03C4B800943679 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		696EFB732B03C4B900943679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		696EFB762B03C4B900943679 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		696EFB7D2B03DAFD00943679 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		69F678162B0529350042A9E5 /* HouseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseModel.swift; sourceTree = "<group>"; };
+		69F678182B0529620042A9E5 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +53,7 @@
 		696EFB6D2B03C4B800943679 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				696EFB6C2B03C4B800943679 /* AirbnbInterface.app */,
+				696EFB6C2B03C4B800943679 /* Earthbnb.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +63,11 @@
 			children = (
 				696EFB6F2B03C4B800943679 /* AirbnbInterfaceApp.swift */,
 				696EFB712B03C4B800943679 /* ContentView.swift */,
+				696EFB7D2B03DAFD00943679 /* LoginView.swift */,
+				69F678162B0529350042A9E5 /* HouseModel.swift */,
+				69F678182B0529620042A9E5 /* House.swift */,
+				69541FBC2B07C50900B6C0F5 /* Category.swift */,
+				69541FBE2B07C54D00B6C0F5 /* CategoryModel.swift */,
 				696EFB732B03C4B900943679 /* Assets.xcassets */,
 				696EFB752B03C4B900943679 /* Preview Content */,
 			);
@@ -70,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		696EFB6B2B03C4B800943679 /* AirbnbInterface */ = {
+		696EFB6B2B03C4B800943679 /* Earthbnb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 696EFB7A2B03C4B900943679 /* Build configuration list for PBXNativeTarget "AirbnbInterface" */;
+			buildConfigurationList = 696EFB7A2B03C4B900943679 /* Build configuration list for PBXNativeTarget "Earthbnb" */;
 			buildPhases = (
 				696EFB682B03C4B800943679 /* Sources */,
 				696EFB692B03C4B800943679 /* Frameworks */,
@@ -82,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = AirbnbInterface;
+			name = Earthbnb;
 			productName = AirbnbInterface;
-			productReference = 696EFB6C2B03C4B800943679 /* AirbnbInterface.app */;
+			productReference = 696EFB6C2B03C4B800943679 /* Earthbnb.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 696EFB672B03C4B800943679 /* Build configuration list for PBXProject "AirbnbInterface" */;
+			buildConfigurationList = 696EFB672B03C4B800943679 /* Build configuration list for PBXProject "Earthbnb" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				696EFB6B2B03C4B800943679 /* AirbnbInterface */,
+				696EFB6B2B03C4B800943679 /* Earthbnb */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F678172B0529350042A9E5 /* HouseModel.swift in Sources */,
+				696EFB7E2B03DAFD00943679 /* LoginView.swift in Sources */,
 				696EFB722B03C4B800943679 /* ContentView.swift in Sources */,
+				69F678192B0529620042A9E5 /* House.swift in Sources */,
+				69541FBF2B07C54D00B6C0F5 /* CategoryModel.swift in Sources */,
 				696EFB702B03C4B800943679 /* AirbnbInterfaceApp.swift in Sources */,
+				69541FBD2B07C50900B6C0F5 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		696EFB672B03C4B800943679 /* Build configuration list for PBXProject "AirbnbInterface" */ = {
+		696EFB672B03C4B800943679 /* Build configuration list for PBXProject "Earthbnb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				696EFB782B03C4B900943679 /* Debug */,
@@ -334,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		696EFB7A2B03C4B900943679 /* Build configuration list for PBXNativeTarget "AirbnbInterface" */ = {
+		696EFB7A2B03C4B900943679 /* Build configuration list for PBXNativeTarget "Earthbnb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				696EFB7B2B03C4B900943679 /* Debug */,
