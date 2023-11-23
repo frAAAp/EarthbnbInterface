@@ -154,7 +154,7 @@ struct ContentView: View {
                                     .tabViewStyle(PageTabViewStyle())
                                 }//scrollable photos
                                 
-                            }.accessibilityHidden(true)
+                            }
                             
                             
                                 VStack{
